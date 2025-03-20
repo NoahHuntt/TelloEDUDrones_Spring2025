@@ -60,6 +60,7 @@ try:
         sendmsg('takeoff',8)
 
         sendmsg("forward 100")
+        sendmsg("back 100")
 
         sendmsg('land')
 
