@@ -59,11 +59,39 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff',8)
 
+<<<<<<< HEAD
         sendmsg("forward 100")
         sendmsg("back 100")
         sendmsg ("cw 100",8)
 
         sendmsg('land"')
+=======
+    endmsg("forward 100")
+    time.sleep(1)
+
+    sendmsg("cw 90", 8)
+    time.sleep(1)
+
+    sendmsg("forward 100")
+    time.sleep(1)
+
+    sendmsg("cw 90", 8)
+    time.sleep(1)
+
+    sendmsg("forward 100")
+    time.sleep(1)
+
+    sendmsg("cw 90", 8)
+    time.sleep(1)
+
+    sendmsg("forward 100")
+    time.sleep(1)
+
+    sendmsg("cw 90", 8)
+
+
+      sendmsg('land')
+>>>>>>> origin/Sandbox_Testing
 
         print('\nGreat Flight!!!')
 
