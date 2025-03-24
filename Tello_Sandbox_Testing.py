@@ -58,24 +58,23 @@ try:
 
         sendmsg('command', 0)
         sendmsg('takeoff',8)
+        
+        sendmsg("speed 75")
+        sendmsg("forward 100")
+
+        sendmsg("cw 90", 8)
+        
+        sendmsg("forward 100")
+        time.sleep(1)
+
+        sendmsg("cw 90", 8)
+        
 
         sendmsg("forward 100")
         time.sleep(1)
 
         sendmsg("cw 90", 8)
-        time.sleep(1)
-
-        sendmsg("forward 100")
-        time.sleep(1)
-
-        sendmsg("cw 90", 8)
-        time.sleep(1)
-
-        sendmsg("forward 100")
-        time.sleep(1)
-
-        sendmsg("cw 90", 8)
-        time.sleep(1)
+        
 
         sendmsg("forward 100")
         time.sleep(1)
