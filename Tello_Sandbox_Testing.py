@@ -58,30 +58,28 @@ try:
 
         sendmsg('command', 0)
         sendmsg('takeoff',8)
+
+        sendmsg("drone.flip_back()")
+
+        sendmsg("land")
+
+        """sendmsg("forward 100")
+               
+        sendmsg("cw 90", 8)
         
-        sendmsg("speed 75")
+        sendmsg("forward 100")
+    
+        sendmsg("cw 90", 8)
+
         sendmsg("forward 100")
 
         sendmsg("cw 90", 8)
         
         sendmsg("forward 100")
-        time.sleep(1)
-
-        sendmsg("cw 90", 8)
-        
-
-        sendmsg("forward 100")
-        time.sleep(1)
-
-        sendmsg("cw 90", 8)
-        
-
-        sendmsg("forward 100")
-        time.sleep(1)
-
+    
         sendmsg("cw 90", 8)
 
-        sendmsg('land"')
+        sendmsg('land"')"""
 
         print('\nGreat Flight!!!')
 
