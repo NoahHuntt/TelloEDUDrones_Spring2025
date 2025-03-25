@@ -45,8 +45,8 @@ recvThread.start()
 
 
 print("\nNoah Hunt - Englesma")
-print("Program Name: square")
-print("Date: 3-20-2025 ")
+print("Program Name: ")
+print("Date: 3-20-2025")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
@@ -57,17 +57,14 @@ try:
         print("\nStarting Drone!\n")
 
         sendmsg('command', 0)
-        sendmsg('takeoff',8)
+        sendmsg('takeoff')
 
-        sendmsg("battery?")
         
-        sendmsg("flip b")
 
-        sendmsg("flip f")
-    
+        # Review the (SDK) Software Development Kit resource for Drone Commands
+        # Delete these comments before writing your program
+
         sendmsg('land')
-
-        sendmsg("battery?")
 
         print('\nGreat Flight!!!')
 
