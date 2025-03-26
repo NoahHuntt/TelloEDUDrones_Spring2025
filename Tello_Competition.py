@@ -61,11 +61,12 @@ try:
 
 # Commit Message: First hoop - Stable
 
+        sendmsg("go 190 0 35 100")
 
 
 # Commit Message: Second Hoop - Stable
 
-
+        sendmsg("go 210 0 50 100")
 
 
 # Commit Message: Third Hoop - Stable
