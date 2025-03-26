@@ -44,9 +44,9 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 
 
-print("\nFirst & Last Names")
-print("Program Name: ")
-print("Date: ")
+print("\nNoah Engelsma - Hunt")
+print("Program Name: Hoop Competition ")
+print("Date: 3/26/25")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
@@ -59,8 +59,23 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        # Review the (SDK) Software Development Kit resource for Drone Commands
-        # Delete these comments before writing your program
+# Commit Message: First hoop - Stable
+
+
+
+# Commit Message: Second Hoop - Stable
+
+
+
+
+# Commit Message: Third Hoop - Stable
+
+
+
+# Commit Message: Fourth Hoop - Stable
+
+
+
 
         sendmsg('land')
 
